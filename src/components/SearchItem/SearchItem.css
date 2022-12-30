@@ -1,0 +1,32 @@
+.searcItem{
+    width: 50% !important;
+    margin-top: 6rem;
+}
+.searcItem button {
+    border-color: #ccc; 
+    border-radius: 20px;
+    color: lightpink;
+}
+.searcItem button:hover {
+    background-color: #ccc; 
+    border-color: #ccc; 
+    color: white;
+
+}
+.form-control{
+    border-radius: 20px 0px 0px  20px !important;
+}
+
+.form-control:focus {
+    border-color: white !important; 
+    outline: #ccc !important;
+    box-shadow: none !important;
+    color: #pink; !important;
+  } 
+
+
+
+@media  ( max-width: 599px ){
+    .searcItem{
+        width: 90% !important;
+    }

@@ -1,60 +1,24 @@
 const products =[{
     "id": 1,
-    "imgUrl": "http://dummyimage.com/300x200.png/dddddd/000000",
-    "text": "Help Desk Operator",
-    "title": "Antitrust",
-    "category": "Crime|Drama|Thriller",
-    "price": 317.79
+    "imgUrl": "https://awesomefotos.com.ar/wp-content/uploads/2018/04/MINI-POLAROID.jpg",
+    "text": "Polaroid 9 11",
+    "price": 50
   }, {
     "id": 2,
-    "imgUrl": "http://dummyimage.com/300x200.png/dddddd/000000",
-    "text": "Associate Professor",
-    "title": "Zen",
-    "category": "Drama",
-    "price": 618.42
+    "imgUrl": "https://awesomefotos.com.ar/wp-content/uploads/2018/04/MINI-POLAROID.jpg",
+    "text": "Polaroid 7 9",
+    "price": 45
   }, {
     "id": 3,
-    "imgUrl": "http://dummyimage.com/300x200.png/cc0000/ffffff",
-    "text": "Senior Cost Accountant",
-    "title": "Orca: The Killer Whale",
-    "category": "Action|Drama|Horror|Thriller",
-    "price": 994.55
+    "imgUrl": "https://i0.wp.com/awesomefotos.com.ar/wp-content/uploads/2018/04/SQUARE-1.jpg?fit=595%2C842&ssl=1",
+    "text": "Square Print 8",
+    "price": 45
   }, {
     "id": 4,
-    "imgUrl": "http://dummyimage.com/300x200.png/dddddd/000000",
-    "text": "Actuary",
-    "title": "Pornographer",
-    "category": "Drama",
-    "price": 656.25
-  }, {
-    "id": 5,
-    "imgUrl": "http://dummyimage.com/300x200.png/dddddd/000000",
-    "text": "Staff Scientist",
-    "title": "Very Potter Sequel, A",
-    "category": "Comedy|Musical",
-    "price": 259.09
-  }, {
-    "id": 6,
-    "imgUrl": "http://dummyimage.com/300x200.png/cc0000/ffffff",
-    "text": "Recruiting Manager",
-    "title": "Bitter Sweetheart",
-    "category": "Comedy|Drama",
-    "price": 938.16
-  }, {
-    "id": 7,
-    "imgUrl": "http://dummyimage.com/300x200.png/ff4444/ffffff",
-    "text": "Payment Adjustment Coordinator",
-    "title": "Charlie in The Chinese Cat",
-    "category": "Comedy|Crime|Mystery|Thriller",
-    "price": 469.98
-  }, {
-    "id": 8,
-    "imgUrl": "http://dummyimage.com/300x200.png/cc0000/ffffff",
-    "text": "Automation Specialist IV",
-    "title": "Cocaine Cowboys II: Hustlin'",
-    "category": "Crime|Documentary",
-    "price": 761.74
-  },
+    "imgUrl": "https://i0.wp.com/awesomefotos.com.ar/wp-content/uploads/2018/04/SQUARE-1.jpg?fit=595%2C842&ssl=1",
+    "text": "Square Print 11",
+    "price": 55
+  }, 
 
   ]
 

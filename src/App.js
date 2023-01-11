@@ -1,22 +1,22 @@
 import './App.css';
-import NavBar from './components/Navbar/NavBar';
+import NavBar from './components/Navbar/NavBar.jsx';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import ButtonsContainer from './components/ButtonsContainer/ButtonsContainer';
-import SearchItem from './components/SearchItem/SearchItem';
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
+import ButtonsContainer from './components/ButtonsContainer/ButtonsContainer.jsx';
+import SearchItem from './components/SearchItem/SearchItem.jsx';
+import ItemListContainer from './components/ItemListContainer/ItemListContainer.jsx';
 
 
 
 function App() {
-  return (
-    <div className="App" >
+ return (
+          <div className="App">
+        <NavBar />
+        <SearchItem ></SearchItem>
+        <ButtonsContainer></ButtonsContainer>
+        <ItemListContainer></ItemListContainer>
 
-      <NavBar><NavBar/>
-      <SearchItem></SearchItem>
-      {/* <ButtonsContainer></ButtonsContainer> */}
-      <ItemListContainer></ItemListContainer>
-
-    </div>
+        </div>
   );
 }
+
 export default App;

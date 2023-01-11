@@ -2,7 +2,7 @@ import { useEffect , useState }from "react";
 import Item from "./Item";
 import "./ItemlistStyles.css";
 import { MDBContainer, MDBRow } from "mdb-react-ui-kit";
-import CatchProductsOfMock from '../../services/mockService';
+import CatchProductsOfMock from '../../products/mockService';
 
 
 
@@ -23,7 +23,7 @@ const ItemListContainer = () => {
   return (
     <MDBContainer fluid className=" container my-5 text-center ">
       <h5 className="mt-4 mb-5">
-        <strong>All games</strong>
+        <strong>FOTOS</strong>
       </h5>
       <MDBRow>
 
@@ -34,8 +34,6 @@ const ItemListContainer = () => {
           imgUrl={element.imgUrl}
           text={element.text}
           title={element.title}
-          category={element.category}
-          price={element.price}
         ></Item>
 
         )}

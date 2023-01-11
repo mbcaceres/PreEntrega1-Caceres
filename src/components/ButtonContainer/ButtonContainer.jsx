@@ -1,7 +1,6 @@
 import ButtonsCard from "./ButtonsCard";
-import latets from "../../assets/img/sections-cards/latets.png";
-import classics from '../../assets/img/sections-cards/classics.png'
-import offers from '../../assets/img/sections-cards/offers.png'
+import POLAROID from "../../assets/img/sections-cards/pola.png";
+import SQUAREPRINT from '../../assets/img/sections-cards/square.png'
 
 
 //cargar lista de productos 
@@ -13,11 +12,9 @@ const ButtonsContainer = () => {
       <div className="row mt-2 g-4 justify-content-center">
 
       { /*  hacer el map para mostrar como return el card  */}
-        <ButtonsCard text={"Latest releases"} img={latets} />
+        <ButtonsCard text={"POLAROID"} img={pola.png} />
 
-        <ButtonsCard text={"Offers"} img={offers} />
-
-        <ButtonsCard text={"Classics"} img={classics} />
+        <ButtonsCard text={"SQUAREPRINT"} img={square.png} />
 
       </div>
     </div>

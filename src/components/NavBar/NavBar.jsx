@@ -13,7 +13,6 @@ import {
 import { FiAlignJustify } from "react-icons/fi";
 import brand from "../../assets/img/brand/brand.png";
 import CartWidget from "./CartWidget ";
-import Favorites from "./Favorites";
 import User from "./User";
 
 const NavBar = () => {
@@ -44,8 +43,8 @@ const NavBar = () => {
             <MDBNavbarLink active href="#/">
               Home
             </MDBNavbarLink>
-            <MDBNavbarLink href="#">Games</MDBNavbarLink>
-            <MDBNavbarLink href="#">Help</MDBNavbarLink>
+            <MDBNavbarLink href="#">FOTOS</MDBNavbarLink>
+            <MDBNavbarLink href="#">CONTACTO</MDBNavbarLink>
           </MDBNavbarNav>
 
           <MDBNavbarLink href="#"><User/></MDBNavbarLink>
